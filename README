@@ -1,0 +1,25 @@
+How to use:
+===========
+
+Simply run `python RG.py`
+
+Dependencies:
+=============
+
+- pygtk2 (can be disabled)
+- python-BeautifulSoup
+- something for watching mms flux (gstreamer based video player, mplayer,
+  mimms, ...)
+
+How to disabled PyGtk:
+======================
+
+If you are a real man, you can just delete the last line of this script
+(starting at GTK stuff ... import pygtk) and only use the cli() function).
+More information with online python documentation.
+
+Motivation:
+===========
+
+I am allergic to SilverLight technology and the latest Fedora 13 broke video
+streaming with {totem,parole}-mozlugin.
